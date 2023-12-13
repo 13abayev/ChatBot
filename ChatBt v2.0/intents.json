@@ -1,0 +1,69 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help?",
+        "Hey! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "Goodbye",
+        "Farewell",
+        "See you later",
+        "Bye",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "Farewell! Come back soon.",
+        "See you later! Take care."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Appreciate it",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome! If you need anything else, feel free to ask.",
+        "No problem! Happy to help.",
+        "You're welcome! Let me know if there's anything else I can do for you."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "Can you help me?",
+        "I need assistance",
+        "Support"
+      ],
+      "responses": [
+        "Of course! What do you need help with?",
+        "I'm here to help. What can I assist you with?",
+        "Sure, I can help. What do you require assistance with?"
+      ]
+    },
+    {
+      "tag": "none",
+      "patterns" : [
+        "~"
+      ],
+      "responses" : ["","",""]
+    }
+  ]
+}
